@@ -1,0 +1,26 @@
+{
+  "name": "remote-config-api",
+  "version": "0.0.0",
+  "description": "NodeJS and MongoDB based backend for feature flags",
+  "private": true,
+  "author": "Joao Fernandes",
+  "license": "MIT",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^7.4.0",
+    "mongoose": "^4.9.8",
+    "morgan": "^1.8.1",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.2.1",
+    "serve-favicon": "~2.4.2"
+  }
+}
